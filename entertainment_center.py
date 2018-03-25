@@ -1,6 +1,8 @@
 import media
 import fresh_tomatoes
 
+# Create a variety of movie object instances 
+
 toy_story = media.Movie("Toy Story",
                         "A Story of a boy and toys that come to life",
                         "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
@@ -29,7 +31,10 @@ star_wars = media.Movie("Star Wars",
                         "A story of a Dad that is very mean while in space",
                         "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/StarWarsMoviePoster1977.jpg/220px-StarWarsMoviePoster1977.jpg",
                         "https://www.youtube.com/watch?v=XHk5kCIiGoM")
-                        
+
+# store all the created objects in an array                         
 movies = [toy_story, matrix, terminator, wonder_woman, jumanji, star_wars]
+
+# pass array to fresh_tomatoes to generate web page and open page
 fresh_tomatoes.open_movies_page(movies)
 
