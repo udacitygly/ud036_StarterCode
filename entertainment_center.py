@@ -7,7 +7,7 @@ toy_story = media.Movie(
     "Toy Story",
     "A Story of a boy and toys that come to life",
     "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
-    "https://www.youtube.com/watch?v=vwyZH85NQC4")
+    "https://www.youtube.com/watch?v=Ny_hRfvsmU8")
 
 matrix = media.Movie(
     "The Matrix",
@@ -33,9 +33,9 @@ wonder_woman = media.Movie(
 jumanji = media.Movie(
     "Jumanji",
     "A Story a video game that comes to life",
-    "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/"
-    "StarWarsMoviePoster1977.jpg/220px-StarWarsMoviePoster1977.jpg",
-    "https://www.youtube.com/watch?v=XHk5kCIiGoM")
+    "https://upload.wikimedia.org/wikipedia/en/b/b6/"
+    "Jumanji_poster.jpg",
+    "https://www.youtube.com/watch?v=DvQ-PGUr6SM")
 
 star_wars = media.Movie(
     "Star Wars",
